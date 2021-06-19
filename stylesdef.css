@@ -1,0 +1,177 @@
+
+div, nav{
+    padding: 20px;
+}
+
+.header { 
+    border: 20px solid black;
+    margin-bottom: 20px; 
+}
+
+.menu {
+    background-color: darkblue;
+    border-bottom: 20px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo, .social {
+    background-color: indianred;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav {
+    background-color: indianred;
+    flex-grow: 2; 
+    margin: 10px;
+    padding: 10px;
+}
+
+.texto-principal{
+    background-color: orange;
+}
+
+.container-amarillo {
+    background-color: yellow;
+    padding: 15px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+/*.section:hover {
+    background-color: blueviolet;
+} */
+
+.articulos {
+    background-color: grey;
+    flex-grow: 2;
+    border: 20px solid black;
+}
+
+.aside{
+    background-color: red;
+    flex-grow: 1;
+    border: 20px solid black;
+    border-left: 0px;
+}
+
+.publicidad {
+    background-color: yellow;
+    margin: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.under{
+    margin-top: 0px;;
+}
+
+.article-linea {
+    display: flex;
+    flex: row;
+    margin-bottom: 10px;
+}
+
+.article-blau-hijo {
+    display: flex;
+    background-color: blue;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.hijo1 {
+    margin-right: 10px;
+}
+
+.navegacion {
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.footer {
+    border: 20px solid black;
+}
+
+.pie{
+    background-color: lemonchiffon;
+    padding: 15px;
+}
+
+/* TABLET */
+@media (min-width: 576px) and (max-width: 991px){
+    .section {
+        flex-direction: column;      
+    }
+
+    .articulos {
+        border-color:palegoldenrod;
+    }
+
+    .aside {
+        border:20px solid palegoldenrod;
+        border-top: 0px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 575px){
+    .menu {
+        flex-direction: column;
+    }
+   
+    .container-amarillo {
+        padding: 10px;
+        margin: 10px;
+    }
+    .section {
+        flex-direction: column;      
+    }
+
+    .article-linea{
+        flex-direction: column;
+    }
+
+    .article-blau-hijo { 
+        margin: 10px;
+    }
+
+    .hijo2 {
+        margin-bottom:0px;
+    }
+
+    .navegacion {
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    .articulos {
+        border-color:gold;
+    }
+
+    .aside{
+        background-color: peru;
+        border: 20px solid gold;
+        border-top:0px;
+    }
+
+    .publicidad{
+        background-color: orangered;
+        margin: 30px;
+        margin-bottom: 15px;
+    }
+
+    .under{
+        margin: 30px;
+        margin-top: 0px;
+    }
+}
+
+
+
