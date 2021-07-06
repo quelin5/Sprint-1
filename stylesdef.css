@@ -5,14 +5,17 @@
     list-style: none; /*quitar bullet points por defecto*/
 }
 
-body {
-    background: #ffffff;
-}
-
 /*COLOR LETRAS*/
 a {
     color:	#808080;
     text-decoration: none; /*eliminar el subrayado por defecto*/
+}
+
+header{
+    background-image: url(../images/header-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
 }
 
 .containerpadre {
@@ -47,12 +50,25 @@ a {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    justify-content: space-around;
 }
-
-
 
 .nav-menu li a:hover {
     background-color: #FEF7DC;
+}
+
+.right-side-iconos li:hover{
+    background-color: #FEF7DC;
+}
+
+.texto-principal{
+    background-color: rgb(225, 232, 235, 0.5);
+    padding: 70px;
+    font-size: 300%;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-align: center;
+    color: #FF96AD;
 }
 
 /*
