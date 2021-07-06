@@ -1,11 +1,69 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none; /*quitar bullet points por defecto*/
+}
 
+body {
+    background: #ffffff;
+}
+
+/*COLOR LETRAS*/
+a {
+    color:	#808080;
+    text-decoration: none; /*eliminar el subrayado por defecto*/
+}
+
+.containerpadre {
+    width:90%;
+    margin:auto;
+}
+
+.menu {
+    margin-top:50px;
+    display: flex;
+}
+
+/*BARRA NAVEGACION*/
+.nav-menu {
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    flex-grow: 2;
+}
+
+/*ELEMENTOS BARRA NAVEGACION*/
+.nav-menu li {
+    margin: 60px;
+    display: flex;
+}
+
+/*ICONO FACEBOOK Y TWITTER*/
+.right-side-iconos li{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+
+.nav-menu li a:hover {
+    background-color: #FEF7DC;
+}
+
+/*
 div, nav{
     padding: 20px;
 }
 
 .header { 
     border: 20px solid black;
-    margin-bottom: 20px; 
+    margin: auto;
+    width: 95%;
 }
 
 .menu {
@@ -48,7 +106,7 @@ div, nav{
 /*.section:hover {
     background-color: blueviolet;
 } */
-
+/*
 .articulos {
     background-color: grey;
     flex-grow: 2;
@@ -104,7 +162,7 @@ div, nav{
     padding: 15px;
 }
 
-/* TABLET */
+/* TABLET 
 @media (min-width: 576px) and (max-width: 991px){
     .section {
         flex-direction: column;      
@@ -120,7 +178,7 @@ div, nav{
     }
 }
 
-/* MOBILE */
+/* MOBILE 
 @media only screen and (max-width: 575px){
     .menu {
         flex-direction: column;
@@ -171,7 +229,7 @@ div, nav{
         margin: 30px;
         margin-top: 0px;
     }
-}
+}*/
 
 
 
