@@ -1,0 +1,119 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    width: auto;
+}
+
+.grid div {
+    padding: 1em;
+}
+
+/*.grid div:hover {
+    border: 1px solid black;
+}
+
+/*DIVIDE LA PAGINA EN 3 LINEAS HORIZONTALES*/
+.grid {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 1em;
+}
+
+/*TRES COLUMNAS QUE CONFORMAN EL HEADER*/
+.background-image{
+    background-image: url("../images/header-background.jpeg")!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nested-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.nested-grid2{
+    width: auto;
+}
+
+.logo-pagina {
+    max-width: 8rem;
+}
+
+.header-text{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-align: center;
+    color: #FF96AD;
+    opacity: 0.5;
+    background-color: #DDDDDD;
+}
+
+.section{
+    background-color: #DDDDDD;
+}
+
+/*NAV MENU CON CINCO OPCIONES*/
+.nav-menu{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3.75px;
+    padding: 2%;
+    flex-grow: 1;
+    position: absolute;
+    left: 12%;
+}
+
+.nav-menu li a div:hover {
+    background-color: #FEF7DC;
+}
+
+.facebook-icon:hover {
+    background-color: #FEF7DC;
+}
+
+.twitter-icon:hover {
+    background-color: #FEF7DC;
+}
+
+.facebook-icon{
+    font-size: 10px;
+}
+
+.twitter-icon{
+    font-size: 10px;
+}
+
+/*FOTOS DEL MEDIO*/
+.section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pink-flower{
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.orange-sunset{
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/*EL ARTICULO*/
+.yellow-dress{
+    max-width: 100%;
+    height: auto;
+}
+
+.div-yellow-dress{
+    background-color: #DDDDDD;
+}
+
+.leer-mas:hover{
+    background-color: #FEF7DC;
+}

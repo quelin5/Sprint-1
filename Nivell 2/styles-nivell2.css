@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    list-style: none; /*quitar bullet points por defecto*/
+    font-size: 100%;
+}
+
+.containerpadre {
+    width: 95%;
+    margin: auto;
+}
+
+.body{
+    width: 100%;
+}
+
+/*HEADER*/
+/*COLOR LETRAS*/
+a {
+    color:	#808080;
+    text-decoration: none; /*eliminar el subrayado por defecto*/
+}
+
+.nav-menu li a:hover {
+    background-color: #FEF7DC;
+}
+
+header{
+    background-image: url(../Sprint1/images/header-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+    width: 100%;
+}
+
+.menu {
+    margin-top: 3.125em;
+    display: flex;
+    flex-shrink: initial;
+    align-items: center;
+}
+
+/*BARRA NAVEGACION*/
+.nav-menu {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3.75px;
+    padding: 2%;
+    flex-grow: 1;
+    position: absolute;
+    left: 12%;
+}
+
+/*ELEMENTOS BARRA NAVEGACION*/
+.nav-menu li {
+    margin: 2em;
+    display: flex;
+    font-size:1.2vw;
+}
+
+/*ICONO FACEBOOK Y TWITTER*/
+.facebook-icon:hover {
+    background-color: #FEF7DC;
+}
+
+.twitter-icon:hover {
+    background-color: #FEF7DC;
+}
+
+.right-side-iconos{
+   position: absolute;
+   right: 15%;
+}
+
+.facebook-icon{
+    margin-bottom: 100%;
+    font-size: 8em;
+}
+
+.twitter-icon{
+    font-size: 8rem;
+}
+
+/*HEADER-TEXT*/
+.logo-pagina{
+    font-size: 2em;
+}
+
+.header-text {
+    background-color: rgb(225, 232, 235, 0.7);
+    padding: 10%;
+    margin-top: 5%;
+    font-size: 1.5vw;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-align: center;
+    color: #FF96AD;
+    opacity: 0.5;
+  
+}
+
+/*MAIN*/
+.left-side-container{
+    background-image: url(../Sprint1/images/pink-flower.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 10vw;
+    flex-grow: 1;
+    margin: 0em 1.25em 0em 0em;
+    background-color: rgb(225, 232, 235, 0.5);
+}
+
+.right-side-container {
+    background-image: url(../Sprint1/images/orange-sunset.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 10%;
+    flex-grow: 1;
+    background-color: rgb(225, 232, 235, 0.5);  
+}
+
+.white-border{
+    display: flex;
+    flex-direction: row;
+    margin: 1.25em 0em;
+    padding: 0.9375em;
+    background-color: rgb(225, 232, 235);
+    width: 100%
+}
+
+.icon{
+    margin-right:0.9375em;
+}
+
+/*ARTICLE*/
+.article-box {
+    background-color: rgb(225, 232, 235, 0.7);
+    padding: 1.25em;
+    padding-left: 0.9375em;
+}
+
+.yellow-dress-image {
+    background-image: url(../Sprint1/images/yellow-dress.jpeg);
+    padding: 10vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+    /*ALLOW THE CHILD TO MOVE WITHIN THE PARENT*/
+    position: relative;
+}
+
+.date {
+    width: 100%;
+    margin: 0.6em;
+    font-size: 1.3vw;
+    color: rgb(225, 232, 235);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    justify-content: flex-start;
+}
+
+.footer-cultura {
+    background: rgb(223, 94, 94);
+    color:rgb(225, 232, 235);
+    padding: 1.3vw;
+    width: 100%;
+
+    /*SEND TO THE BOTTOM*/
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.cultura-letras{
+    width: 95%;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.latin-text {
+    padding: 30px;
+    color: rgb(23, 23, 23);
+    font-size: 1.5vw;
+    font-family: "verdana";
+}
+
+.leer-mas{
+   padding: 5px;
+   margin: 20px; 
+   color: grey;
+   font-size: 150%;
+   font-family: "verdana";
+   font-size: 1.5vw;
+}
+
+.leer-mas:hover{
+    background-color: #FEF7DC;
+}
+
+/* TABLET */
+@media (max-width: 1160px){
+    .white-border{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side-container{
+        margin: 0em 0em 1.25em 0em;
+    }
+
+    .right-side-iconos{
+        padding: 0%;
+        margin:0%
+    }
+
+    .facebook-icon{
+        margin: 5%;
+        font-size: 1em;
+    }
+
+    .twitter-icon{
+        font-size: 1em;
+    }
+}
