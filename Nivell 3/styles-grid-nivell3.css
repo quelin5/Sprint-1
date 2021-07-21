@@ -106,8 +106,11 @@
 
 /*EL ARTICULO*/
 .yellow-dress{
+    background-position: center bottom;
     max-width: 100%;
-    height: auto;
+    background-size: 100%;
+    /*ALLOW THE CHILD TO MOVE WITHIN THE PARENT*/
+    position: relative;
 }
 
 .div-yellow-dress{
@@ -116,4 +119,25 @@
 
 .leer-mas:hover{
     background-color: #FEF7DC;
+}
+
+.latin-text{
+    background-color: #DDDDDD;
+}
+
+.yellow-dress-image{
+    background-image: url(../images/yellow-dress.jpeg);
+    background-position: bottom;
+}
+
+.date{
+    font-size: 100%;
+    padding: 0%
+}
+
+.cultura-letras{
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    background: rgb(223, 94, 94);
 }

@@ -25,7 +25,7 @@ a {
 }
 
 header{
-    background-image: url(../Sprint1/images/header-background.jpeg);
+    background-image: url(../images/header-background.jpeg);
     background-position: center;
     background-size: cover;
     padding: 5%;
@@ -75,11 +75,11 @@ header{
 
 .facebook-icon{
     margin-bottom: 100%;
-    font-size: 8em;
+    font-size: 2em;
 }
 
 .twitter-icon{
-    font-size: 8rem;
+    font-size: 2rem;
 }
 
 /*HEADER-TEXT*/
@@ -102,7 +102,7 @@ header{
 
 /*MAIN*/
 .left-side-container{
-    background-image: url(../Sprint1/images/pink-flower.jpeg);
+    background-image: url(../images/pink-flower.jpeg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -113,7 +113,7 @@ header{
 }
 
 .right-side-container {
-    background-image: url(../Sprint1/images/orange-sunset.jpeg);
+    background-image: url(../images/orange-sunset.jpeg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -143,7 +143,7 @@ header{
 }
 
 .yellow-dress-image {
-    background-image: url(../Sprint1/images/yellow-dress.jpeg);
+    background-image: url(../images/yellow-dress.jpeg);
     padding: 10vw;
     width: 100%;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ header{
 
 .date {
     width: 100%;
-    margin: 0.6em;
+    margin: 0.8em;
     font-size: 1.3vw;
     color: rgb(225, 232, 235);
     position: absolute;
@@ -204,6 +204,28 @@ header{
 
 .leer-mas:hover{
     background-color: #FEF7DC;
+}
+
+.footer-cultura {
+    background: rgb(223, 94, 94);
+    color:rgb(225, 232, 235);
+    padding: 1.3vw;
+    width: 100%;
+
+    /*SEND TO THE BOTTOM*/
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.cultura-letras{
+    width: 95%;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 /* TABLET */
